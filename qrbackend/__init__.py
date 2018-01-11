@@ -1,0 +1,1 @@
+from .qrbackend import app

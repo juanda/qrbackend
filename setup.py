@@ -10,6 +10,9 @@ setup(
     author_email='juanda@juandarodriguez.es',
     include_package_data=True,
     install_requires=[
+        'Flask==0.12.2',
+        'qrcode==5.3',
+        'Pillow==5.0.0'
     ],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
